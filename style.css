@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #B5BFCB;
+    font-family: Helvetica, sans-serif ;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+
+a.nav-link {
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #0c2e3a;
+    display: flex;
+}
+
+a.nav-link:hover {
+    background-color: #B5BFCB;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    color: #fff;
+}
+
+.contain {
+    max-width: 125rem;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 0 1.8rem;
+    border-top: 0.3rem solid #0c2e3a;
+    background-color: #fff;
+}
+
+
+.nav {
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin: 0 5.6rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: normal;
+}
+
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+ .nav-item {
+    margin-right: 5rem;
+    font-size: 1rem;
+ }
+
+ .nav-link {
+    text-transform: uppercase;
+ }
+
+.timeline {
+    position: relative;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 0.4rem;
+    background-color: #fff;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.container {
+    padding: 0.6rem 2.5rem;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #fff;
+    border: 4px solid #4B4E9B;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    left: 50%;
+}
+
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+.right::after {
+    left: -16px;
+}
+
+.inside {
+    padding: 20px 30px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 6px;
+}
+
+.skillcontainer {
+    width: 100%;
+    background-color: #fff;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .html {width: 70%; background-color: #4B4E9B; text-transform: uppercase;}
+
+  .css {width: 60%; background-color: #4B4E9B; text-transform: uppercase;} 
+
+  .js {width: 30%; background-color: #4B4E9B; text-transform: uppercase;}
+
+  .php {width: 30%; background-color: #4B4E9B; text-transform: uppercase;}
+
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  input[type=email] {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+
+  input[type=button] {
+    background-color: #4B4E9B;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 500px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  h2 {
+    text-align: center;
+    margin: 3rem 30rem 3rem 30rem;
+    color: #4B4E9B;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4B4E9B;
+  }
+
+.paragraph {
+    text-align: center;
+    font-size: large;
+}
+
+.ss {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
